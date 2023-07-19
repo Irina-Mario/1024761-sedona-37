@@ -81,7 +81,7 @@ body {
   display: flex;
   margin-right: 29px;
   width: 140px;
-  align-items: center;
+  align-items: flex-start;
   z-index: 0;
 }
 
@@ -137,7 +137,7 @@ body {
   margin: 0;
   padding: 0;
   list-style-type: none;
-  width: 339px;
+  width: 450px;
   flex-wrap: wrap;
 }
 
@@ -197,8 +197,7 @@ body {
   display: flex;
   background-color: #7DB54F;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
   justify-content: center;
   align-items: center;
   margin: 0;
@@ -263,8 +262,8 @@ body {
 }
 
 .advantages-wrapper {
-  padding-right: 274px;
-  padding-left: 274px;
+  padding-right: 272px;
+  padding-left: 272px;
   padding-bottom: 69px;
   margin-bottom: 21px;
 }
@@ -354,9 +353,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 230px;
+  width: 232px;
   min-height: 160px;
-  padding: 112px 85px;
+  padding: 112px 84px;
   margin-top: auto;
   margin-bottom: 0;
 }
@@ -692,11 +691,12 @@ body {
 
 .contact-phone-link {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   font-size: 40px;
   line-height: 40px;
   text-decoration: none;
-  width: 331px;
+  width: 333px;
   margin-right: 40px;
   margin: 0 auto;
   text-align: center;
